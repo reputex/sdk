@@ -13,29 +13,29 @@ If you're new to ReputeX, check the [quickstart guide in the official docs](http
 
 If you're already familiar with ReputeX and have your server set up. Then follow along to connect your SDK:
 
-## 1. Install Reputex
+## 1. Install ReputeX
 
 The easiest way to integrate the ReputeX SDK into your JavaScript project is through the npm module.
 
 Install the package via `npm`:
 
 ```shell
-npm install reputex-sdk
+npm install @reputex/sdk
 ```
 
 or `yarn`:
 
 ```shell
-yarn add reputex-sdk
+yarn add @reputex/sdk
 ```
 
 Import ReputeX:
 
 ```js
-import ReputeXSdk from "reputex-sdk";
+import ReputeXSdk from "@reputex/sdk";
 ```
 
-## 2. Initialize Reputex
+## 2. Initialize ReputeX
 
 After your dependency is added, you simply need to initialize ReputeXSdk:
 
