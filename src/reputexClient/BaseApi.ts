@@ -8,6 +8,7 @@ export class BaseApi {
   protected readonly authHeaders = {
     "x-api-key": this.credentials.getAccessKey(),
     "x-api-secret": this.credentials.getSecret(),
+    origin: this.credentials.getOrigin(),
   };
 
   constructor(private credentials: Credentials) {}

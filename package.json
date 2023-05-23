@@ -1,6 +1,6 @@
 {
   "name": "@reputex/sdk",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Reputex SDK for JavaScript and TypeScript",
   "keywords": [
     "ethereum",
