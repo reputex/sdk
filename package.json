@@ -1,6 +1,6 @@
 {
-  "name": "reputex-sdk-test",
-  "version": "1.0.0",
+  "name": "@reputex/sdk",
+  "version": "1.0.4",
   "description": "Reputex SDK for JavaScript and TypeScript",
   "keywords": [
     "ethereum",
@@ -19,14 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nordfinance/reputex-sdk.git"
+    "url": "git+https://github.com/reputex/sdk.git"
   },
-  "author": "Nord Finance",
-  "license": "ISC",
+  "author": "ReputeX",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nordfinance/reputex-sdk/issues"
+    "url": "https://github.com/reputex/sdk/issues"
   },
-  "homepage": "https://github.com/nordfinance/reputex-sdk#readme",
+  "homepage": "https://github.com/reputex/sdk#readme",
   "devDependencies": {
     "@types/jest": "^29.5.1",
     "@types/node": "^18.16.2",

@@ -15,9 +15,10 @@ const addressOrDomainInvalid = "0x5DD596C901987A2b28C38A9C1DfBf86fFFc15d7";
 const addressOrDomainExists = "0x5DD596C901987A2b28C38A9C1DfBf86fFFc15d77";
 const addressOrDomainNew = "0xD01A2311cA001241502394d25Bc08b0aD8Cd2229";
 const did = "did:hid:testnet:0xB08138Cb5F6Ac6b908F0F70B72F8092EAe12a9cd";
+const originUrl = "http://localhost:3030";
 
 describe("ReputeXScore", () => {
-  const reputeX = new ReputeX(accessKey, secretKey);
+  const reputeX = new ReputeX({ accessKey, secretKey, origin: originUrl });
   jest.setTimeout(30000);
 
   describe("getBreakdown", () => {

@@ -20,6 +20,7 @@ interface ScoreBreakdown {
       ensScore: number;
       txHistoryScore: number;
       udScore: number;
+      gitcoinScore: number;
     };
     metaCategoryScore: {
       finalScore: number;
@@ -27,6 +28,7 @@ interface ScoreBreakdown {
       nftScore: number;
       nftTradingScore: number;
       poolTogetherScore: number;
+      sandboxScore: number;
     };
     socialImpactScore: {
       finalScore: number;
@@ -51,6 +53,7 @@ interface ScoreBreakdown {
       finalScore: number;
       nftScore: number;
       poolTogetherScore: number;
+      sandboxScore: number;
     };
     socialImpactScore: {
       finalScore: number;
@@ -97,6 +100,29 @@ interface ScoreBreakdown {
     };
     socialImpactScore: {
       finalScore: number;
+    };
+  };
+  arbitrum: {
+    finalScore: number;
+    arbitrumContribution: number;
+    defiCategoryScore: {
+      finalScore: number;
+      aaveScore: number;
+      uniswapScore: number;
+      yearnScore: number;
+      abracadabraScore: number;
+      qiDaoScore: number;
+      siloFinanceScore: number;
+      tvlScore: number;
+    };
+    credibilityCategoryScore: {
+      finalScore: number;
+      appsInteractionScore: number;
+      txHistoryScore: number;
+    };
+    metaCategoryScore: {
+      finalScore: number;
+      nftScore: number;
     };
   };
 }

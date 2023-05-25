@@ -1,4 +1,4 @@
-const reputeXBaseUrl = "https://dev.reputex.io/v1/";
+const reputeXBaseUrl = "https://api.reputex.io/v1/";
 
 const scoreAPI = {
   getScore: "score/breakdown",
