@@ -1,9 +1,6 @@
 import { BaseApi } from "./BaseApi";
 import { scoreAPI } from "../config/serverConfig";
-import {
-  DidScoreBreakdownResponse,
-  ScoreBreakdownResponse,
-} from "../config/responseScore/scoreBreakdownResponse";
+import { ScoreBreakdownResponse } from "../config/responseScore/scoreBreakdown";
 import { ScoreCreateResponse } from "../config/responseScore/scoreCreateResponse";
 import { ServerResponse } from "../config/commonResponse";
 import { ScoreUpdateResponse } from "../config/responseScore/scoreUpdateResponse";
@@ -37,18 +34,5 @@ export class ReputeXScore extends BaseApi {
     return await this.makePostRequest(
       `${scoreAPI.updateScore}/${addressOrDomain}`
     );
-  }
-
-  async didGetBreakdown(
-    did: string,
-    params?: { compactBreakdown?: boolean; individualBreakdown?: boolean }
-  ): Promise<ServerResponse<DidScoreBreakdownResponse>> {
-    validateStringNullOrEmpty(did);
-    return await this.makeGetRequest(`${scoreAPI.getScoreDid}/${did}`, params);
-  }
-
-  async didCreate(did: string): Promise<ServerResponse<ScoreCreateResponse>> {
-    validateStringNullOrEmpty(did);
-    return await this.makePostRequest(`${scoreAPI.createScoreDid}/${did}`);
   }
 }
