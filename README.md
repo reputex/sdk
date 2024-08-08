@@ -1,10 +1,8 @@
 # ReputeX SDK
----
 
 **Features**:
 
 - Create, Update and Get ReputeX Score
-- Create and Get ReputeX Score using did
 - Fully **Typescript** ready out-of-the box
 
 # 🚀 Quick start
@@ -48,4 +46,4 @@ const reputexSdk = new ReputeX(
 );
 ```
 
-After that you can call and use reputexSdk functionalities as described in our [extensive docs](https://docs.reputex.io/)
+After that you can call and use reputexSdk functionalities as described in our [docs](https://docs.reputex.io/).
